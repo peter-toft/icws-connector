@@ -1,0 +1,31 @@
+{
+  "name": "icws-connector",
+  "version": "1.0.0",
+  "description": "Template node.js Express app for connecting to ICWS instances",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "icws-connector"
+  },
+  "keywords": [
+    "icws",
+    "connector",
+    "node",
+    "express",
+    "cic",
+    "genesys",
+    "pureconnect"
+  ],
+  "author": "peter-toft",
+  "license": "GPL",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
